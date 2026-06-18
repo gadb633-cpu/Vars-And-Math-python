@@ -1,3 +1,4 @@
+# Part 1
 agent_name = "jj"
 mission_code = 654213
 distance_to_target = 18.5
@@ -15,5 +16,8 @@ print(f"fuel needed:{fuel_needed}")
 total_fuel = 150
 remaining_fuel = total_fuel-fuel_needed
 print(f"remaining fuel:{remaining_fuel}")
-
-
+countdown_conversion = input("How long until your mission start in seconds?")
+countdown_conversion = int(countdown_conversion)
+conversion_to_minutes = countdown_conversion / 60
+conversion_to_hours = conversion_to_minutes / 60
+print(f"your mission start at {conversion_to_hours} hours in a minutes {conversion_to_minutes} in a seconds {countdown_conversion}")
