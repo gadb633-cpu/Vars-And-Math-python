@@ -7,3 +7,6 @@ print(type(agent_name))
 print(type(mission_code))
 print(type(distance_to_target))
 print(type(mission_active_status))
+travel_distance = distance_to_target*2
+print(f"travel distance:{travel_distance}")
+
