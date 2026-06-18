@@ -20,4 +20,12 @@ print(bin(x))
 print(bin(y))
 print(x ==y)
 print(x > y)
+c = 2
+d = 2.0
+print(bin(c))
+# print(bin(d))
+print(c == d)
+print(c > d)
+
+
 
