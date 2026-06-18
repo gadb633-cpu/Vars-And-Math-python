@@ -25,3 +25,5 @@ distance_formatting = input("How far is it in KM?")
 distance_formatting = int(distance_formatting)
 distance_at_mails = distance_formatting*0.6
 print(f"distance at mails:{distance_at_mails}")
+update_agent_name = input("give me new name?")
+print(f"agent new name:{update_agent_name} ,agent old name:{agent_name}")
