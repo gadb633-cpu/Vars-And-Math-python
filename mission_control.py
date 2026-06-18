@@ -21,3 +21,7 @@ countdown_conversion = int(countdown_conversion)
 conversion_to_minutes = countdown_conversion / 60
 conversion_to_hours = conversion_to_minutes / 60
 print(f"your mission start at {conversion_to_hours} hours in a minutes {conversion_to_minutes} in a seconds {countdown_conversion}")
+distance_formatting = input("How far is it in KM?")
+distance_formatting = int(distance_formatting)
+distance_at_mails = distance_formatting*0.6
+print(f"distance at mails:{distance_at_mails}")
