@@ -20,12 +20,15 @@ print(bin(x))
 print(bin(y))
 print(x ==y)
 print(x > y)
+# Part 3
 c = 2
 d = 2.0
 print(bin(c))
 # print(bin(d))
 print(c == d)
 print(c > d)
+# Part 4
+# Need to translate with the table of letters into binary
 
 
 
