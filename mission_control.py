@@ -9,4 +9,8 @@ print(type(distance_to_target))
 print(type(mission_active_status))
 travel_distance = distance_to_target*2
 print(f"travel distance:{travel_distance}")
+fuel_usage = 1 #liret/KM
+fuel_needed = fuel_usage*travel_distance
+print(f"fuel needed:{fuel_needed}")
+
 
