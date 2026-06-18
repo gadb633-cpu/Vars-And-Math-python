@@ -12,5 +12,8 @@ print(f"travel distance:{travel_distance}")
 fuel_usage = 1 #liret/KM
 fuel_needed = fuel_usage*travel_distance
 print(f"fuel needed:{fuel_needed}")
+total_fuel = 150
+remaining_fuel = total_fuel-fuel_needed
+print(f"remaining fuel:{remaining_fuel}")
 
 
